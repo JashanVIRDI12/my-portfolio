@@ -108,7 +108,7 @@ export default function Container(props: ContainerProps) {
       setIsLoading(false);
       document.body.style.cursor = "default";
       window.scrollTo(0, 0);
-    }, 5000); // Increased from 2000ms to 6000ms to show all greetings
+    }, 3500); // Updated to 3500ms to match optimized word timing for Vercel
   }, []);
 
   return (
